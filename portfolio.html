@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Kanishka Raghuwanshi</h1>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div class="photo">
+            <img src="myimage.jpg" alt="Your Photo">
+        </div>
+        <div class="info">
+            <h2>About Me</h2>
+            <p>I am a BTech student majoring in Computer Science, with expertise in programming languages such as C, HTML, and SQL. I possess a strong foundation in core programming concepts and have a deep passion for creating technical solutions through software development.</p><br><br>
+            <h3> My CV</h3><br>
+            <a href="resume.pdf" class="cv-download" download>Download </a>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="mailto:kanishkaraghuwanshi2005@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Kanishka Raghuwanshi]. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
